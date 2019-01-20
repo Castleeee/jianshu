@@ -72,9 +72,9 @@ IMAGES_STORE = os.path.join(project_dir,"image")#存在哪个路径下
 
 ITEM_PIPELINES = {
    'aa.pipelines.likesPipeline': 1,
-    # 'aa.pipelines.SqlPipeline': 2,
-    #  'scrapy.pipelines.images.ImagesPipeline':3,#普通的图片pipeline
-    #  'aa.pipelines.JsonPipeline':4,
+    'aa.pipelines.SqlPipeline': 2,
+     'scrapy.pipelines.images.ImagesPipeline':3,#普通的图片pipeline
+     'aa.pipelines.JsonPipeline':4,
     'aa.pipelines.asyPipeline': 2,
 
 }
