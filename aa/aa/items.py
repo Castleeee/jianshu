@@ -18,6 +18,7 @@ def callme(value):
     # temp=value['likes'][0].replace("\'", '\"')
     # print(temp)
     # value['likes'] = temp['note']['likes_count']
+    # 不知道为什么就是不行
     return value
 
 class JianshuItem(scrapy.Item):
